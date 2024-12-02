@@ -1,0 +1,7 @@
+CRITICAL - 2023-07-24 08:41:39 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Profil.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')

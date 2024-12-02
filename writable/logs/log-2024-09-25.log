@@ -1,0 +1,540 @@
+INFO - 2024-09-25 03:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:10:56 --> CSRF token verified.
+INFO - 2024-09-25 03:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:42 --> CSRF token verified.
+INFO - 2024-09-25 03:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:17:16 --> CSRF token verified.
+INFO - 2024-09-25 03:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:18:37 --> Attempt to read property "id_seo" on null
+in APPPATH\Views\admin\meta\edit.php on line 12.
+ 1 APPPATH\Views\admin\meta\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_seo" on null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/meta/edit', [], true)
+ 5 APPPATH\Controllers\admin\Meta.php(64): view('admin/meta/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Meta->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Meta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:18:41 --> CSRF token verified.
+INFO - 2024-09-25 03:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:19:57 --> Attempt to read property "id_seo" on null
+in APPPATH\Views\admin\meta\edit.php on line 12.
+ 1 APPPATH\Views\admin\meta\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_seo" on null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/meta/edit', [], true)
+ 5 APPPATH\Controllers\admin\Meta.php(64): view('admin/meta/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Meta->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Meta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:20:06 --> CSRF token verified.
+INFO - 2024-09-25 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:22:53 --> Undefined variable $Title
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Title', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 6 APPPATH\Controllers\user\Aboutctrl.php(54): view('user/about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:23:13 --> Undefined variable $Meta
+in APPPATH\Views\user\template\template.php on line 25.
+ 1 APPPATH\Views\user\template\template.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Meta', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 6 APPPATH\Controllers\user\Aboutctrl.php(54): view('user/about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:23:25 --> Undefined variable $Title
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Title', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 6 APPPATH\Controllers\user\Aboutctrl.php(54): view('user/about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:24:17 --> Undefined variable $Meta
+in APPPATH\Views\user\template\template.php on line 27.
+ 1 APPPATH\Views\user\template\template.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Meta', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 6 APPPATH\Controllers\user\Aboutctrl.php(54): view('user/about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:24:36 --> Undefined variable $Title
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Title', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 6 APPPATH\Controllers\user\Aboutctrl.php(54): view('user/about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:25:44 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\user\template\template.php on line 30.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 4 APPPATH\Controllers\user\Aboutctrl.php(53): view('user/about/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:25:52 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\user\template\template.php on line 30.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 4 APPPATH\Controllers\user\Aboutctrl.php(44): view('user/about/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:25:54 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\user\template\template.php on line 30.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 4 APPPATH\Controllers\user\Aboutctrl.php(44): view('user/about/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 03:25:55 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\user\template\template.php on line 30.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/about/index', [], true)
+ 4 APPPATH\Controllers\user\Aboutctrl.php(44): view('user/about/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 03:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:42:55 --> CSRF token verified.
+INFO - 2024-09-25 03:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:45:15 --> CSRF token verified.
+INFO - 2024-09-25 03:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:46:42 --> CSRF token verified.
+INFO - 2024-09-25 03:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:47:31 --> CSRF token verified.
+INFO - 2024-09-25 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:48:24 --> CSRF token verified.
+INFO - 2024-09-25 03:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:49:02 --> CSRF token verified.
+INFO - 2024-09-25 03:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 03:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:23:59 --> Attempt to read property "meta_title" on string
+in APPPATH\Views\user\template\template.php on line 16.
+ 1 APPPATH\Views\user\template\template.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_title" on string', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:24:16 --> Attempt to read property "meta_title" on string
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_title" on string', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:25:39 --> Cannot access offset of type string on string
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:25:51 --> Undefined variable $data
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:27:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:27:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:28:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:30:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 APPPATH\Views\user\template\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 6 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:38:33 --> Attempt to read property "id_seo" on null
+in APPPATH\Views\admin\meta\edit.php on line 12.
+ 1 APPPATH\Views\admin\meta\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_seo" on null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/meta/edit', [], true)
+ 5 APPPATH\Controllers\admin\Meta.php(64): view('admin/meta/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Meta->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Meta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:38:37 --> CSRF token verified.
+INFO - 2024-09-25 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:38:51 --> Attempt to read property "id_seo" on null
+in APPPATH\Views\admin\meta\edit.php on line 12.
+ 1 APPPATH\Views\admin\meta\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_seo" on null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/meta/edit', [], true)
+ 5 APPPATH\Controllers\admin\Meta.php(64): view('admin/meta/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Meta->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Meta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:39:02 --> CSRF token verified.
+INFO - 2024-09-25 05:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:39:08 --> Attempt to read property "id_seo" on null
+in APPPATH\Views\admin\meta\edit.php on line 12.
+ 1 APPPATH\Views\admin\meta\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_seo" on null', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\meta\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/meta/edit', [], true)
+ 5 APPPATH\Controllers\admin\Meta.php(64): view('admin/meta/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Meta->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Meta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:39:10 --> CSRF token verified.
+INFO - 2024-09-25 05:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:39:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\user\template\template.php on line 7.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(54): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:41:40 --> Undefined variable $Meta
+in APPPATH\Views\user\template\template.php on line 25.
+ 1 APPPATH\Views\user\template\template.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Meta', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/index', [], true)
+ 6 APPPATH\Controllers\user\Artikelctrl.php(43): view('user/artikel/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 05:42:06 --> Undefined variable $canonicalUrl
+in APPPATH\Views\user\template\template.php on line 10.
+ 1 APPPATH\Views\user\template\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $canonicalUrl', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\user\\template\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/artikel/detail', [], true)
+ 6 APPPATH\Controllers\user\Artikelctrl.php(74): view('user/artikel/detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Artikelctrl->detail('13')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Artikelctrl))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-25 05:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 05:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 07:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 07:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

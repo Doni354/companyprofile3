@@ -1,0 +1,308 @@
+INFO - 2023-08-04 08:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:32:50 --> CSRF token verified.
+ERROR - 2023-08-04 08:32:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-04 08:32:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\front-backen\\backend\\public\\index.php')
+INFO - 2023-08-04 08:43:28 --> CSRF token verified.
+ERROR - 2023-08-04 08:43:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-04 08:43:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\front-backen\\backend\\public\\index.php')
+INFO - 2023-08-04 08:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:43:45 --> CSRF token verified.
+ERROR - 2023-08-04 08:43:45 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-04 08:43:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\front-backen\\backend\\public\\index.php')
+INFO - 2023-08-04 08:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:50:55 --> CSRF token verified.
+ERROR - 2023-08-04 08:50:55 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-04 08:50:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\front-backen\\backend\\public\\index.php')
+INFO - 2023-08-04 08:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:55:40 --> CSRF token verified.
+ERROR - 2023-08-04 08:55:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'compro' in F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\front-backen\backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 F:\WIT\Magang\Projek CI4\front-backen\backend\app\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+#6 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(932): App\Controllers\Login->process()
+#7 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 F:\WIT\Magang\Projek CI4\front-backen\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\front-backen\backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\front-backen\backend\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-04 08:55:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\front-backen\\backend\\public\\index.php')
+INFO - 2023-08-04 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:51 --> CSRF token verified.
+INFO - 2023-08-04 08:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:57:59 --> CSRF token verified.
+INFO - 2023-08-04 08:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 08:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

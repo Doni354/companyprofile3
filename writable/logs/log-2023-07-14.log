@@ -1,0 +1,105 @@
+CRITICAL - 2023-07-14 03:59:38 --> Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\News.php(22): view('news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 04:00:34 --> Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\News.php(22): view('news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 04:00:36 --> Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\News.php(22): view('news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 04:14:54 --> mysqli_sql_exception: Duplicate entry 'berita-satu' for key 'slug' in C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ne...', 0)
+#1 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 C:\xampp\htdocs\ci-news\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 C:\xampp\htdocs\ci-news\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci-news\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci-news\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci-news\app\Controllers\NewsAdmin.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(932): App\Controllers\NewsAdmin->create()
+#9 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+#10 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-14 04:14:54 --> Duplicate entry 'berita-satu' for key 'slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Berita Satu\', \'Wahhh berhasil terbuat satu berita\', \'draft\', \'berita-satu\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Berita Satu\', \'Wahhh berhasil terbuat satu berita\', \'draft\', \'berita-satu\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (\'Berita Satu\', \'Wahhh berhasil terbuat satu berita\', \'draft\', \'berita-satu\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `news` (`title`, `content`, `status`, `slug`) VALUES (:title:, :content:, :status:, :slug:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewsAdmin.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\NewsAdmin->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 04:55:30 --> The route for "http://localhost/ci-news/public/admin/news" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/ci-news/public/admin/news')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\NewsAdmin.php(87): redirect('http://localhost/ci-news/public/admin/news')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\NewsAdmin->delete('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+ERROR - 2023-07-14 06:37:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`username`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4...' at line 7 in C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\ci-news\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\ci-news\app\Database\Migrations\2023-07-14-063155_Users.php(35): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\ci-news\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 C:\xampp\htdocs\ci-news\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci-news\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci-news\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci-news\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci-news\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-14 06:38:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`username`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4...' at line 7 in C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\ci-news\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\ci-news\app\Database\Migrations\2023-07-14-063155_Users.php(35): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\ci-news\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 C:\xampp\htdocs\ci-news\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci-news\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci-news\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci-news\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci-news\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-07-14 08:13:00 --> Class "CodeIgniter\App\Filters\UsersAuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('logout', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')

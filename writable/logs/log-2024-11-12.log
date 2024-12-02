@@ -1,0 +1,92 @@
+INFO - 2024-11-12 07:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 07:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-12 07:10:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'u1658729_tujuhbelas' in C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_tujuhb...', 3306, '', 0)
+#1 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'u1658729_tujuhbelas' in C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\app\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\17_soficookies.kadinkotamalang.com\17\17_soficookies.kadinkotamalang.com\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-11-12 07:10:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'u1658729_tujuhbelas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(35): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\public\\index.php')
+INFO - 2024-11-12 07:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 07:10:52 --> Undefined property: stdClass::$slug_en
+in APPPATH\Views\user\home\index.php on line 79.
+ 1 APPPATH\Views\user\home\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_en', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\public\\index.php')
+INFO - 2024-11-12 07:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 07:11:04 --> Undefined property: stdClass::$slug_id
+in APPPATH\Views\user\home\index.php on line 79.
+ 1 APPPATH\Views\user\home\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_id', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\public\\index.php')
+INFO - 2024-11-12 07:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 07:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 07:11:13 --> Undefined property: stdClass::$slug_id
+in APPPATH\Views\user\home\index.php on line 79.
+ 1 APPPATH\Views\user\home\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_id', 'C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\app\\Views\\user\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 5 APPPATH\Controllers\user\Homectrl.php(62): view('user/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17\\17_soficookies.kadinkotamalang.com\\public\\index.php')
+INFO - 2024-11-12 07:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 07:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 08:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 08:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 08:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 08:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

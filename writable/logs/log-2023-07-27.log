@@ -1,0 +1,59 @@
+CRITICAL - 2023-07-27 08:22:20 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Profil.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:25:23 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Profil.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:25:25 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Profil.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:31:57 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Profil.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:46:25 --> Call to undefined method App\Models\ProfilModel::getSingleProfil
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Profil.php(17): CodeIgniter\Model->__call('getSingleProfil', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:53:47 --> Too few arguments to function App\Models\ProfilModel::getSingleProfil(), 0 passed in C:\xampp\htdocs\ci-news\app\Controllers\Profil.php on line 17 and exactly 1 expected
+in APPPATH\Models\ProfilModel.php on line 17.
+ 1 APPPATH\Controllers\Profil.php(17): App\Models\ProfilModel->getSingleProfil()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 08:57:40 --> Undefined variable $username
+in APPPATH\Controllers\Profil.php on line 17.
+ 1 APPPATH\Controllers\Profil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ci-news\\app\\Controllers\\Profil.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')
+CRITICAL - 2023-07-27 09:58:25 --> Call to undefined function App\Controllers\move()
+in APPPATH\Controllers\Profil.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->ubahProfilPerusahaan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-news\\public\\index.php')

@@ -1,0 +1,179 @@
+INFO - 2024-08-12 04:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:07:57 --> CSRF token verified.
+INFO - 2024-08-12 04:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-12 04:22:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'u1658729_tujuhb...', 3306, '', 0)
+#1 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '7')
+#6 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\app\Controllers\admin\Slider.php(87): CodeIgniter\BaseModel->find('7')
+#7 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(932): App\Controllers\admin\Slider->edit('7')
+#8 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Slider))
+#9 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER N...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '7')
+#5 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\app\Controllers\admin\Slider.php(87): CodeIgniter\BaseModel->find('7')
+#6 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(932): App\Controllers\admin\Slider->edit('7')
+#7 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Slider))
+#8 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ACER NITRO 5\Penyimpanan Utama\Documents\PKL\Web Code\17_soficookies.kadinkotamalang.com\17\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER N...')
+#11 {main}
+CRITICAL - 2024-08-12 04:22:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_slider`
+WHERE `tb_slider`.`id_slider` = :tb_slider.id_slider:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '7')
+ 5 APPPATH\Controllers\admin\Slider.php(87): CodeIgniter\BaseModel->find('7')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Slider->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-08-12 04:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 04:22:28 --> Attempt to read property "id_slider" on null
+in APPPATH\Views\admin\slider\edit.php on line 11.
+ 1 APPPATH\Views\admin\slider\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_slider" on null', 'C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\slider\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\slider\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/slider/edit', [], true)
+ 5 APPPATH\Controllers\admin\Slider.php(90): view('admin/slider/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Slider->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-08-12 04:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:44:26 --> CSRF token verified.
+INFO - 2024-08-12 04:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 04:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:41:15 --> CSRF token verified.
+INFO - 2024-08-12 06:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:48:05 --> CSRF token verified.
+INFO - 2024-08-12 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:50:53 --> CSRF token verified.
+INFO - 2024-08-12 06:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 06:52:42 --> Attempt to read property "id_produk" on null
+in APPPATH\Views\admin\produk\edit.php on line 17.
+ 1 APPPATH\Views\admin\produk\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_produk" on null', 'C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\produk\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\produk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/produk/edit', [], true)
+ 5 APPPATH\Controllers\admin\Produk.php(106): view('admin/produk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Produk->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-08-12 06:52:47 --> CSRF token verified.
+INFO - 2024-08-12 06:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 06:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:07:12 --> CSRF token verified.
+INFO - 2024-08-12 07:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:13:25 --> CSRF token verified.
+INFO - 2024-08-12 07:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 07:13:42 --> Attempt to read property "foto_aktivitas" on null
+in APPPATH\Controllers\admin\Aktivitas.php on line 183.
+ 1 APPPATH\Controllers\admin\Aktivitas.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto_aktivitas" on null', 'C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Controllers\\admin\\Aktivitas.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Aktivitas->delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Aktivitas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-08-12 07:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:20:55 --> CSRF token verified.
+INFO - 2024-08-12 14:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-12 07:21:07 --> Attempt to read property "id_aktivitas" on null
+in APPPATH\Views\admin\aktivitas\edit.php on line 11.
+ 1 APPPATH\Views\admin\aktivitas\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_aktivitas" on null', 'C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\aktivitas\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\app\\Views\\admin\\aktivitas\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/aktivitas/edit', [], true)
+ 5 APPPATH\Controllers\admin\Aktivitas.php(102): view('admin/aktivitas/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Aktivitas->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Aktivitas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ACER NITRO 5\\Penyimpanan Utama\\Documents\\PKL\\Web Code\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-08-12 07:21:13 --> CSRF token verified.
+INFO - 2024-08-12 14:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:14 --> CSRF token verified.
+INFO - 2024-08-12 14:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-12 07:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

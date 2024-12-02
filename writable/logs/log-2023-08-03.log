@@ -1,0 +1,99 @@
+CRITICAL - 2023-08-03 02:41:15 --> Invalid file: "admin/layout/nav.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout/nav.php')
+ 2 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/nav', null, true)
+ 3 APPPATH\Views\admin\layout\header.php(33): CodeIgniter\View\View->include('admin/layout/nav')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\backend\\app\\Views\\admin\\layout\\header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('admin/layout/header', null, true)
+ 7 APPPATH\Views\admin\template\template.php(26): CodeIgniter\View\View->include('admin/layout/header')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\backend\\app\\Views\\admin\\template\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('admin/template/template', [], true)
+11 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampilProduk', [], true)
+12 APPPATH\Controllers\Produk.php(14): view('tampilProduk', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-08-03 03:02:39 --> Invalid file: "activities/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('activities/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('activities/index', [], true)
+ 3 APPPATH\Controllers\Aktivitas.php(14): view('activities/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Aktivitas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-08-03 03:27:09 --> Undefined property: stdClass::$file_foto_sider
+in APPPATH\Views\admin\slider\edit.php on line 23.
+ 1 APPPATH\Views\admin\slider\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file_foto_sider', 'C:\\xampp\\htdocs\\backend\\app\\Views\\admin\\slider\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\backend\\app\\Views\\admin\\slider\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/slider/edit', [], true)
+ 5 APPPATH\Controllers\Slider.php(37): view('admin/slider/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-08-03 04:14:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Loginctrl::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Loginctrl::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-08-03 07:01:52 --> Invalid file: "admin/dashboard/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/dashboard/', [], true)
+ 3 APPPATH\Controllers\Admin\Dashboardctrl.php(17): view('admin/dashboard/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Dashboardctrl->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboardctrl))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+INFO - 2023-08-03 08:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-03 08:40:17 --> Too few arguments to function CodeIgniter\Router\RouteCollection::setDefaultMethod(), 0 passed in C:\xampp\htdocs\backend\app\Config\Routes.php on line 15 and exactly 1 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 369.
+ 1 APPPATH\Config\Routes.php(15): CodeIgniter\Router\RouteCollection->setDefaultMethod()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\backend\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-08-03 08:40:25 --> Too few arguments to function CodeIgniter\Router\RouteCollection::setDefaultMethod(), 0 passed in C:\xampp\htdocs\backend\app\Config\Routes.php on line 15 and exactly 1 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 369.
+ 1 APPPATH\Config\Routes.php(15): CodeIgniter\Router\RouteCollection->setDefaultMethod()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\backend\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+INFO - 2023-08-03 08:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:42:57 --> CSRF token verified.
+INFO - 2023-08-03 08:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:17 --> CSRF token verified.
+INFO - 2023-08-03 08:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-03 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

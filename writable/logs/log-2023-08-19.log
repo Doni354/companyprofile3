@@ -1,0 +1,549 @@
+INFO - 2023-08-19 02:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:43:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:43:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:44:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:44:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:44:27 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:44:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:44:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:44:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:44:32 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:44:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:44:37 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:44:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-19 02:45:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_compro', 3306, '', 0)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_compro' in F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\WIT\Magang\Projek CI4\company-profile-ci4\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WIT\Magang\Projek CI4\company-profile-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WIT\Magang\Projek CI4\company-profile-ci4\system\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\P...')
+#11 {main}
+CRITICAL - 2023-08-19 02:45:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_compro'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile-ci4\\public\\index.php')
+INFO - 2023-08-19 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 02:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 03:28:54 --> Undefined property: stdClass::$nama_perusahaan
+in APPPATH\Views\user\home\slider.php on line 4.
+ 1 APPPATH\Views\user\home\slider.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_perusahaan', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/home/slider', null, true)
+ 5 APPPATH\Views\user\home\index.php(5): CodeIgniter\View\View->include('user/home/slider')
+ 6 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 9 APPPATH\Controllers\user\Homectrl.php(39): view('user/home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 03:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 03:29:56 --> Attempt to read property "nama_perusahaan" on array
+in APPPATH\Views\user\home\slider.php on line 4.
+ 1 APPPATH\Views\user\home\slider.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_perusahaan" on array', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/home/slider', null, true)
+ 5 APPPATH\Views\user\home\index.php(5): CodeIgniter\View\View->include('user/home/slider')
+ 6 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 9 APPPATH\Controllers\user\Homectrl.php(39): view('user/home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 03:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 03:30:59 --> Undefined variable $data
+in APPPATH\Views\user\home\slider.php on line 2.
+ 1 APPPATH\Views\user\home\slider.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php', 2)
+ 2 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/home/slider', null, true)
+ 5 APPPATH\Views\user\home\index.php(5): CodeIgniter\View\View->include('user/home/slider')
+ 6 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\home\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home/index', [], true)
+ 9 APPPATH\Controllers\user\Homectrl.php(39): view('user/home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 03:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 03:51:12 --> Undefined variable $produk
+in APPPATH\Views\user\products\detail.php on line 46.
+ 1 APPPATH\Views\user\products\detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\products\\detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/detail', [], true)
+ 5 APPPATH\Controllers\user\Productsctrl.php(53): view('user/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 03:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 03:54:12 --> Undefined variable $produk
+in APPPATH\Views\user\products\detail.php on line 45.
+ 1 APPPATH\Views\user\products\detail.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\products\\detail.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Views\\user\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/detail', [], true)
+ 5 APPPATH\Controllers\user\Productsctrl.php(53): view('user/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 03:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 03:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 04:13:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\user\Homectrl.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 04:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 04:13:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\user\Homectrl.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 04:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 04:15:46 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\user\Homectrl.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 04:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 04:15:55 --> Undefined array key "title_website"
+in APPPATH\Controllers\user\Homectrl.php on line 33.
+ 1 APPPATH\Controllers\user\Homectrl.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title_website"', 'F:\\WIT\\Magang\\Projek CI4\\company-profile\\app\\Controllers\\user\\Homectrl.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 04:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-19 04:16:02 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\user\Homectrl.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('F:\\WIT\\Magang\\Projek CI4\\company-profile\\public\\index.php')
+INFO - 2023-08-19 04:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-19 04:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

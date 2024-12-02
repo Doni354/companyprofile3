@@ -1,0 +1,57 @@
+INFO - 2024-09-14 02:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 02:10:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'u1658729_tujuhb...', 3306, '', 0)
+#1 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\app\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\17_soficookies.kadinkotamalang.com\17_soficookies.kadinkotamalang.com\17\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-09-14 02:10:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\17_soficookies.kadinkotamalang.com\\17_soficookies.kadinkotamalang.com\\17\\public\\index.php')
+INFO - 2024-09-14 02:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 02:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
